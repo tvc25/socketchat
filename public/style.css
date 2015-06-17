@@ -1,0 +1,42 @@
+html {
+  background-color: #eee;
+}
+
+body {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 40px;
+}
+
+p.connecting {
+  max-width: 400px;
+  background-color: #dd9;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+ul.chatlines {
+  max-width: 600px;
+  border: 1px solid #aaa;
+  background-color: #ccc;
+  min-height: 50px;
+}
+
+ul.chatlines li {
+  list-style-type: none;
+}
+.nick {
+  font-weight: bold;
+}
+.action {
+  font-style: italic;
+}
